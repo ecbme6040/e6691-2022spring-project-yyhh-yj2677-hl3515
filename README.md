@@ -24,26 +24,26 @@ In this project, we attempt to realize the ideas and reproduce the results from 
 **Sample Result Visualization**
 <div align=center>
 <img src='assets/sample1.gif' width="400" height="300">
-<img src='assets/sample1_pred.png' width="400" height="300">
+<img src='assets/sample1_pred.png' width="500" height="300">
 </div>
 
-           Input Sample    Inference Label
+                             Input Sample                                          Inference Label
 
 ## Main File/Folder Description
 | File/Folder Name    | Description |
 |--------|------------------------|
-| ./backbone | backbone model folder (resnet) |
-| ./checkpoints   | Our trained Hyperbolic space weights and Euclidean space weights |
-| ./Euclidean_train/Hyperbolic_train | Training results (tensorboard log files) |
-| download_script.py | Dataset download script |
-| split_script.py | Clip videos to small clips |
-| label_num2str.py | Transfer inference from numbers to strings |
-| main.py | Main script |
-| models.py | All models included |
-| datasets.py | Datasets read file |
-| trainer.py | Training loop |
-| plot_utils.py | Results plot file |
-| xx.sh | All shell files indicate how to use main.py (functions as their names)|
+| `./backbone` | backbone model folder (resnet) |
+| `./checkpoints`   | Our trained Hyperbolic space weights and Euclidean space weights |
+| `./Euclidean_train/Hyperbolic_train` | Training results (tensorboard log files) |
+| `download_script.py` | Dataset download script |
+| `split_script.py` | Clip videos to small clips |
+| `label_num2str.py` | Transfer inference from numbers to strings |
+| `main.py` | Main script |
+| `models.py` | All models included |
+| `datasets.py` | Datasets read file |
+| `trainer.py` | Training loop |
+| `plot_utils.py` | Results plot file |
+| `xx.sh` | All shell files indicate how to use main.py (functions as their names)|
 
 
 ## How to Use
@@ -68,7 +68,7 @@ pip install -r requirements
 
 ### Download Dataset
 There are two ways to download dataset that we used:<br>
-* (1) Directly use our dataset_info link (Sample video clips): [Dataset Info in Google Drive](goo). If you take (1) directly jump to **train & test** part.
+* (1) Directly use our dataset_info link (Sample video clips): [Dataset Info in Google Drive](https://drive.google.com/drive/folders/13sGzOKGJ5RIgMhB9dhMBeayrS8OOC9Ll?usp=sharing). If you take (1) directly jump to **train & test** part.
 * (2) If you want to get full dataset, first download video annotations: [From Original Author](https://hyperfuture.cs.columbia.edu/dataset_info.tar.gz). You will have to set the path to that folder in --path_data_info in all .sh files. As a reminder, you can extract the content from a .tar.gz file by using tar -xzvf archive.tar.gz. Then run:
 ```
 python download_script.py 
