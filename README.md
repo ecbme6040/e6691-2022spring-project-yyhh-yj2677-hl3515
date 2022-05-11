@@ -110,7 +110,10 @@ sh train_finegym_hyperbolic.sh
 ```
 sh train_finegym_euclidean.sh
 ```
-
+After training the self-supervised features encoder, you could directly use the weights to fine-tune your task. We use dense layers as our fine-tune model for classification task.
+```
+sh finetune_self_finegym_hyperbolic.sh
+```
 For test, you need to specify the checkpoint path in `--pretrain` of all `.sh` files. Since Euclidean checkpoints are large than 100MB, you could download from our [Shared Link](https://drive.google.com/file/d/1lobyN_xDAnYPEva86JqojQ4diJf8KyQX/view?usp=sharing). After specify, run:
 * Hyperbolic space
 ```
