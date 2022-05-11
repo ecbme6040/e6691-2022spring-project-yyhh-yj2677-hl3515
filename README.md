@@ -3,7 +3,7 @@
 
 ## Introduction ###
 In this project, we attempt to realize the ideas and reproduce the results from Didac Suris, Ruoshi Liu, Carl Vondrick’ work in [Learning the Predictability of the Future](https://hyperfuture.cs.columbia.edu/) that was published in 2021 at arXiv.org. The goal of our project is implementing deep learning neural networks that can recognize what is taking place in a video and make predictions for the future hierarchically based on the ​​Dense Predictive Coding(DPC) and in the Hyperbolic Space. Regarding the fact that the four datasets mentioned in the original paper including FineGym, Hollywood2, Kinetics- 600 and MovieNet are extremely large and time-consuming  to download and process, in this paper we focus on the performance of the proposed model on FineGym dataset. Experiments on our DPC and hyperbolic encoding with regularization show that the Top 1, Top3, Top5 train accuracies over 288 classes are 22.27%, 58.59%, 81.51% respectively. On the other hand, the test accuracy, hierarchical top-down accuracy and bottom-up accuracy of our regularized model over 288 classes reaches 12.45%, 72.40% and 32.30% respectively, compared to the original paper’s 13.37% , 66.64% and 33.04%.<br>
-**Our Report:**[]()
+**Our Report:** [E6691-2022spring-Report-yyhh-yj2677-hl3515](assets/E6691.2022Spring.YHYH.report.yj2677.hl3515.pdf)
 
 **Main Contributions**
 - [x] Reproduce the original paper's results
