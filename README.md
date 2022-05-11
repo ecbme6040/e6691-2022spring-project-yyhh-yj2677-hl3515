@@ -27,7 +27,7 @@ In this project, we attempt to realize the ideas and reproduce the results from 
 <img src='assets/sample1_pred.png' width="400" height="200">
 </div>
 
-                             Input Sample                                          Inference Label
+                               Input Sample                                          Inference Label
 
 ## Main File/Folder Description
 | File/Folder Name    | Description |
