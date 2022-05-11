@@ -111,7 +111,7 @@ sh train_finegym_hyperbolic.sh
 sh train_finegym_euclidean.sh
 ```
 
-For test, you need to specify the checkpoint path in `--pretrain` of all .sh files. Since Euclidean checkpoints are large than 100MB, you could download from our [Shared Link](https://drive.google.com/file/d/1lobyN_xDAnYPEva86JqojQ4diJf8KyQX/view?usp=sharing). After specify, run:
+For test, you need to specify the checkpoint path in `--pretrain` of all `.sh` files. Since Euclidean checkpoints are large than 100MB, you could download from our [Shared Link](https://drive.google.com/file/d/1lobyN_xDAnYPEva86JqojQ4diJf8KyQX/view?usp=sharing). After specify, run:
 * Hyperbolic space
 ```
 sh test_future_sub_action_linear_finegym_hyperbolic.sh
