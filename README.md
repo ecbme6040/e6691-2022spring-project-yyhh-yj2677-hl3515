@@ -1,8 +1,17 @@
-# Learning the Predictability of the Future with Regularization
+# Learning the Predictability of the Future with Regularization 🦾
 
 
 ## Introduction ###
 In this project, we attempt to realize the ideas and reproduce the results from Didac Suris, Ruoshi Liu, Carl Vondrick’ work in Learning the Predictability of the Future[1] that was published in 2021 at arXiv.org. The goal of our project is implementing deep learning neural networks that can recognize what is taking place in a video and make predictions for the future hierarchically based on the ​​Dense Predictive Coding(DPC) and in the Hyperbolic Space. Regarding the fact that the datasets mentioned in the original paper including FineGym, Hollywood2, Kinetics- 600 and MovieNet are extremely large,  time-consuming  to download and process, in this paper we focus on the performance of the proposed model on FineGym dataset. Experimental with hyperbolic loss results show that the train…… On the other hand, the test accuracy over 288 classes reaches 11.45% compared with 13.37%  from the original paper, whereas the top-down hier-accuracy and bottom-up hier-accuracy are 67.94% and 41.03% respectively.
+
+**Main Contributions**
+- [x] Reproduce the original paper's results
+- [x] Introduce a new regularization idea in loss function
+- [x] Collect and compare the resutls with original paper (In Hyperbolic space and Euclidean space)<br>
+
+**Original Paper** [Learning the Predictability of the Future](https://hyperfuture.cs.columbia.edu/)<br>
+
+**Our Report:**[]()
 
 **Our Results**
 | Method Name | Accuracy | Top-Down | Bottom-Up |
@@ -13,16 +22,13 @@ In this project, we attempt to realize the ideas and reproduce the results from 
 | Euclidean(original) | - | - | - |
 | Random | - | - | - |
 
-**Sample Results**
+**Sample Result Visualization**
+<div align=center>
+<img src='assets/sample1.gif' width="400" height="300">
+<img src='assets/sample1_pred.png' width="400" height="300">
+</div>
 
-
-**Main Contributions:**
-- [x] Reproduce the original paper's results
-- [x] Introduce a new regularization idea in loss function
-- [x] Collect and compare the resutls with original paper (In Hyperbolic space and Euclidean space)<br>
-
-**Original Paper:** [Learning the Predictability of the Future](https://hyperfuture.cs.columbia.edu/)<br>
-**Our Report:**[]()
+           Input Sample    Inference Label
 
 ## Main File/Folder Description
 | File/Folder Name    | Description |
@@ -122,5 +128,5 @@ After train or test, a **logs** folder would be created and each subfolder is tr
 python plot_utils.py
 ```
 <div align=center>
-<img src='assets/Hyperbolic_train_res.png' width="400" height="300">
+<img src='assets/Hyperbolic_train_res.png' width="800" height="400">
 </div>
