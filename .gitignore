@@ -1,0 +1,12 @@
+__pycache__/
+dataset/
+venv/
+.idea/
+dataset_info/
+videos/
+Hollywood2/
+Hollywood2-actions.tar.gz
+dataset_info.tar.gz
+checkpoints.tar.gz
+logs/
+other_finegym_dataset/
