@@ -15,7 +15,7 @@ In this project, we attempt to realize the ideas and reproduce the results from 
 **Our Results**
 | Method Name | Accuracy | Top-Down | Bottom-Up |
 |--------|------------------------|------|---------|
-| Hyperbolic(ours) | 13.45% | 83.40% | 41.30% |
+| Hyperbolic(ours) | 12.45% | 72.40% | 32.30% |
 | Hyperbolic(original) | 13.37% | 66.64% | 33.04% |
 | Euclidean(ours) | 2.29% | 28.05% | 9.16% |
 | Euclidean(original) | 10.29% | 56.67% | 27.49% |
