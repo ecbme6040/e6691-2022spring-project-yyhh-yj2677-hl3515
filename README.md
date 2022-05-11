@@ -24,7 +24,7 @@ In this project, we attempt to realize the ideas and reproduce the results from 
 **Sample Result Visualization**
 <div align=center>
 <img src='assets/sample1.gif' width="400" height="300">
-<img src='assets/sample1_pred.png' width="500" height="300">
+<img src='assets/sample1_pred.png' width="400" height="200">
 </div>
 
                              Input Sample                                          Inference Label
