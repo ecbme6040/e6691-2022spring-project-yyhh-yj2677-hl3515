@@ -19,7 +19,7 @@ In this project, we attempt to realize the ideas and reproduce the results from 
 | Hyperbolic(original) | 13.37% | 66.64% | 33.04% |
 | Euclidean(ours) | 2.29% | 28.05% | 9.16% |
 | Euclidean(original) | 10.29% | 56.67% | 27.49% |
-| Random | 0.00 | 16.24 | 5.67 |
+| Random | 0.00% | 16.24% | 5.67% |
 
 **Sample Result Visualization**
 <div align=center>
