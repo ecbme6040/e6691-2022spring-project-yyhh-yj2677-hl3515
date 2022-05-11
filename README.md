@@ -15,11 +15,11 @@ In this project, we attempt to realize the ideas and reproduce the results from 
 **Our Results**
 | Method Name | Accuracy | Top-Down | Bottom-Up |
 |--------|------------------------|------|---------|
-| Hyperbolic(ours) | - | - | - |
-| Hyperbolic(original) | - | - | - |
-| Euclidean(ours) | - | - | - |
-| Euclidean(original) | - | - | - |
-| Random | - | - | - |
+| Hyperbolic(ours) | 13.45% | 83.40% | 41.30% |
+| Hyperbolic(original) | 13.37% | 66.64% | 33.04% |
+| Euclidean(ours) | 2.29% | 28.05% | 9.16% |
+| Euclidean(original) | 10.29% | 56.67% | 27.49% |
+| Random | 0.00 | 16.24 | 5.67 |
 
 **Sample Result Visualization**
 <div align=center>
